@@ -1,11 +1,12 @@
-html{
-    font-size: $font-size;
-    overflow-y: scroll;
+html {
+  overflow-y: scroll;
+
+  font-size: $font-size;
 }
-body{
-    font-size: $font-size;
-    font-family: $font-main;
+body {
+  font-family: $font-main;
+  font-size: $font-size;
 }
-a{
-    color: $color-primary;
+a {
+  color: $color-primary;
 }

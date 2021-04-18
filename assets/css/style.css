@@ -2,7 +2,7 @@
   text-shadow: 0 0 5px black, 0 0 10px black, 0 0 20px black;
 }
 
-.header {
+.header, .main, .left-sidebar {
   margin-bottom: 80.0px;
 }
 
@@ -37,14 +37,36 @@
   margin-right: 0;
 }
 
+.panel {
+  margin-bottom: 30px;
+  background-color: #ededed;
+}
+
+.panel-info {
+  border: none;
+}
+
+.panel-info > .panel-heading {
+  letter-spacing: 0.1rem;
+  color: #ffffff;
+  border: none;
+  background-color: #df8a13;
+  font-size: 1.2rem;
+}
+
+.panel-body {
+  border: 1px solid #dddddd;
+  border-radius: 0 0 4px 4px;
+}
+
 html {
-  font-size: 16px;
   overflow-y: scroll;
+  font-size: 16px;
 }
 
 body {
-  font-size: 16px;
   font-family: "PT Sans", sans-serif;
+  font-size: 16px;
 }
 
 a {
@@ -52,9 +74,9 @@ a {
 }
 
 .header-logo {
-  background-color: #232323;
   padding: 100px 0;
   text-align: center;
+  background-color: #232323;
   background-image: url(../img/header-bg.jpg);
   background-position: 50% 50%;
   background-size: cover;
@@ -68,16 +90,29 @@ a {
 
 .header-logo__description {
   display: block;
+  letter-spacing: 0.2em;
   color: #ffffff;
   font-size: 1.5rem;
-  letter-spacing: 0.2em;
+}
+
+.left-sidebar .panel:last-of-type {
+  margin-bottom: 0;
+}
+
+.vertical-slider {
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.vertical-slider__image {
+  width: 100%;
 }
 
 @media (min-width: 576px) {
   .header-logo__title {
-    font-size: 3.5rem;
-    letter-spacing: 0.33em;
     margin-right: -15px;
+    letter-spacing: 0.33em;
+    font-size: 3.5rem;
   }
 }
 
@@ -107,8 +142,8 @@ a {
 
 @media (max-width: 575.8px) {
   .header-logo__title {
-    font-size: 2.5rem;
-    letter-spacing: 0.2em;
     margin-right: -7.5px;
+    letter-spacing: 0.2em;
+    font-size: 2.5rem;
   }
 }
