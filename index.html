@@ -87,15 +87,18 @@
 
                                     <div class="carousel-inner" role="listbox">
                                           <div class="item active">
-                                                <img class="vertical-slider__image" src="assets/img/films/1263242.jpg" alt="film image">
+                                                <img class="vertical-slider__image" src="assets/img/films/1263242.jpg"
+                                                      alt="film image">
 
                                           </div>
                                           <div class="item">
-                                                <img class="vertical-slider__image" src="assets/img/films/1266931.jpg" alt="film image">
+                                                <img class="vertical-slider__image" src="assets/img/films/1266931.jpg"
+                                                      alt="film image">
 
                                           </div>
                                           <div class="item">
-                                                <img class="vertical-slider__image" src="assets/img/films/1289488.jpg" alt="film image">
+                                                <img class="vertical-slider__image" src="assets/img/films/1289488.jpg"
+                                                      alt="film image">
 
                                           </div>
                                     </div>
@@ -120,23 +123,76 @@
                               <div class="panel-heading">Поиск</div>
                               <div class="panel-body">
                                     <form action="search">
-                                          
-                                          
-
                                           <div class="input-group input-group-lg">
                                                 <input class="form-control" type="search" placeholder="Поиск по сайту">
                                                 <span class="input-group-btn">
-                                                  <button class="btn btn-default">
-                                                      <span class="glyphicon glyphicon-search"> </span>
-                                                  </button>
+                                                      <button class="btn btn-default">
+                                                            <span class="glyphicon glyphicon-search"> </span>
+                                                      </button>
                                                 </span>
-                                              </div>
+                                          </div>
                                     </form>
                               </div>
                         </div>
                         <div class="user-login panel panel-info">
                               <div class="panel-heading">Пользователь</div>
-                              <div class="panel-body">Panelcontent</div>
+                              <div class="panel-body">
+
+
+
+                                    <ul class="user-login__tabs nav nav-tabs" role="tablist">
+                                          <li role="presentation" class="active">
+                                                <a href="#user-login-sidebar" aria-controls="user-login-sidebar" role="tab" data-toggle="tab">
+                                                      <span class="glyphicon glyphicon-log-in"></span>
+                                                </a>
+                                          </li>
+                                          <li role="presentation">
+                                                <a href="#user-registration-sidebar" aria-controls="user-registration-sidebar" role="tab" data-toggle="tab">
+                                                      <span class="glyphicon glyphicon-user"></span>
+
+                                                </a>
+                                          </li>
+
+                                    </ul>
+
+                                    <div class="user-login__content tab-content">
+                                          <div role="tabpanel" class="tab-pane fade in active" id="user-login-sidebar">
+                                                <form action="login">
+                                                      <div class="form-group">
+                                                            <input class="form-control input-lg" type="text"
+                                                                  placeholder="Логин">
+                                                      </div>
+                                                      <div class="form-group">
+                                                            <input class="form-control input-lg" type="password"
+                                                                  placeholder="Пароль">
+                                                      </div>
+
+                                                      <button class="btn btn-lg btn-default btn-block">Вход</button>
+                                                </form>
+
+                                          </div>
+                                          <div role="tabpanel" class="tab-pane fade" id="user-registration-sidebar">
+                                                <form action="registration">
+                                                      <div class="form-group">
+                                                            <input class="form-control input-lg" type="text"
+                                                                  placeholder="Логин">
+                                                      </div>
+                                                      <div class="form-group">
+                                                            <input class="form-control input-lg" type="password"
+                                                                  placeholder="Пароль">
+                                                      </div>
+                                                      <div class="form-group">
+                                                            <input class="form-control input-lg" type="e-mail"
+                                                                  placeholder="Е-mail">
+                                                      </div>
+
+                                                      <button
+                                                            class="btn btn-lg btn-default btn-block">Регистрация</button>
+                                                </form>
+
+                                          </div>
+                                    </div>
+                              </div>
                         </div>
                         <div class="site-news panel panel-info">
                               <div class="panel-heading">Новости сайта</div>
