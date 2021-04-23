@@ -112,10 +112,9 @@ h2 {
   font-family: "PT Serif", serif;
 }
 
-a {
-  color: #165690;
-}
-
+/*a{
+  color: $color-primary;
+}*/
 .header-logo {
   padding: 100px 0;
   text-align: center;
@@ -379,6 +378,31 @@ article {
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
   right: 15px;
+}
+
+.footer {
+  padding-top: 45px;
+  color: #fbfbfb;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #777;
+}
+
+.footer-fifth {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.footer-fifth a {
+  color: #fbfbfb;
 }
 
 @media (min-width: 576px) {
