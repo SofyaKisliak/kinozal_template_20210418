@@ -3,5 +3,23 @@
 }
 
 %margin-bottom-lg {
-  margin-bottom: $gap * 5.33333333;
+  margin-bottom: 80px;//$gap * 5.33333333
+}
+
+%after-h{
+  position: absolute;
+  width: 100%;
+  margin: 0.85em 0 0 15px;
+  content: "";
+  border-bottom: 3px solid rgba(244, 197, 131, 1);
+
+}
+
+%before-h{
+  position: absolute;
+  left: 0;
+  width: 30px;
+  margin: 0.25em 0 0 0;
+  content: "";
+  border-bottom: 3px solid rgba(244, 197, 131, 1);
 }
