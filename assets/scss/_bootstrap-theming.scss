@@ -59,7 +59,7 @@
 }
 
 .panel {
-  margin-bottom: $gap * 4;//$gap * 2
+  margin-bottom: $gap * 2;//$gap * 2
 
   background-color: darken($color: #ffffff, $amount: 7%);
   &-info {
@@ -86,4 +86,11 @@
   &-group-lg > .form-control{
   font-size: 0.875rem;
 }
+}
+.btn-primary{
+  &:hover{
+  background-color: $color-accent;
+  border-color: $color-accent;
+  }
+
 }

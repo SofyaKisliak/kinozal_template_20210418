@@ -46,10 +46,10 @@
 
                               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                     <ul class="nav navbar-nav navbar-left">
-                                          <li class="active"><a href="index.html">Главная<span
+                                          <li ><a href="index.html">Главная<span
                                                             class="sr-only">(current)</span></a>
                                           </li>
-                                          <li><a href="#">Фильмы</a></li>
+                                          <li class="active"><a href="#">Фильмы</a></li>
                                           <li><a href="#">Сериалы</a></li>
                                           <li><a href="#">Контакты</a></li>
 
@@ -67,6 +67,8 @@
             </div>
 
       </header>
+
+
       <div class="container">
             <div class="row">
                   <main class="main col-lg-9 col-lg-push-3 col-md-8 col-md-push-4">
@@ -151,7 +153,7 @@
 
                         <section class="movie">
                               <h1>Иллюзия обмана 2</h1>
-                              <div class="embed-responsive embed-responsive-16by9">
+                              <div class="embed-modif embed-responsive embed-responsive-16by9">
                                     <iframe class="embed-responsive-item"
                                           src="https://www.youtube.com/embed/47DzVAIzSQI"></iframe>
                               </div>
@@ -177,7 +179,9 @@
                               <h2>Отзывы о фильме</h2>
                               <div class="panel panel-info">
                                     <div class="panel-heading">
-                                          <h3 class="panel-title">Panel title</h3>
+                                          
+                                          <span class="glyphicon glyphicon-user"></span>
+                                          <span>Владимир</span>
                                         </div>
                                         <div class="panel-body">
                                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, asperiores atque repudiandae, id tempora odio dolorum soluta magnam molestiae accusamus impedit laborum ipsum? Rem magnam possimus animi expedita, totam, doloremque voluptatibus in quibusdam aliquam nesciunt dignissimos nulla unde provident hic obcaecati quisquam ea culpa corrupti? Eaque similique praesentium quaerat inventore quia. Nesciunt aliquam quas assumenda mollitia accusamus qui rem placeat optio recusandae impedit eos, ratione reprehenderit reiciendis quos. Numquam ratione laudantium recusandae, excepturi distinctio repudiandae aut debitis. Voluptates necessitatibus eveniet dolorum assumenda dolor vero quos doloremque debitis, blanditiis aperiam deserunt, saepe quo similique fuga? Non esse rem porro nesciunt aut?
@@ -187,11 +191,14 @@
                               </div>
                               <div class="panel panel-info">
                                     <div class="panel-heading">
-                                          <h3 class="panel-title">Panel title</h3>
-                                        </div>
-                                        <div class="panel-body">
+                                          
+                                          <span class="glyphicon glyphicon-user"></span>
+                                          <span>Елена</span>
+
+                                    </div>
+                                    <div class="panel-body">
                                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus dicta facere soluta praesentium aliquid totam amet optio sunt voluptatibus? Eveniet autem eum in necessitatibus, maiores et ea cum explicabo pariatur architecto culpa. Voluptates quos, soluta, ex corrupti earum odit odio dicta velit tenetur placeat alias dolore veritatis fugit voluptas! Incidunt.
-                                        </div>
+                                    </div>
 
                               </div>
                         </section>
@@ -199,13 +206,16 @@
                               <h2>Оставить комментарий</h2>
                               <form action="">
                                     <div class="form-group">
-                                          <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+                                          <input type="text" class="form-control input-lg" id="exampleInputName2" placeholder="Ваше имя">
                                         </div>
                                         <div class="form-group">
-                                          <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+                                          <input type="email" class="form-control input-lg" id="exampleInputEmail2" placeholder="Укажите E-mail">
                                         </div>
-                                        <textarea class="form-control" rows="3"></textarea>
-                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                        <div class="form-group">
+                                             <textarea class="form-control" rows="10" placeholder="Напишите свой комментарий здесь..."></textarea>  
+                                        </div>
+                                       
+                                        <button type="submit" class="comment-form__btn btn btn-lg  btn-primary">Отправить</button>
                               </form>
                         </section>
 
@@ -445,13 +455,6 @@
                   </aside>
             </div>
       </div>
-
-
-
-
-
-
-
 
       <div class="footer navbar-inverse container-fluid">
             <div class="container-fluid">

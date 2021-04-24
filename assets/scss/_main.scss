@@ -73,7 +73,8 @@ article{
   
 }
 
-.film-news-item{
+.film-news-item,
+.comment-form{
  margin-bottom: 0;
 
 
@@ -81,7 +82,7 @@ article{
     width: 100%;
   }
   &__btn{
-    margin-bottom: $gap * 2;//
+    //margin-bottom: $gap * 2;//
     float: right;
     background-color: $color-accent-light;
     border-color: $color-accent-light;
@@ -94,11 +95,14 @@ article{
     border-color: $color-accent;
     background-color: $color-accent;
   }
-  .btn-primary{
-  background-color: $color-accent;
-  border-color: $color-accent;
-}
+
 }
 
 }
+.film-news-title{
+  
+    margin-bottom: 25px;
+  
+}
+
 
